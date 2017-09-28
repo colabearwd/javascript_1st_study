@@ -1,0 +1,15 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>javascript能够直接输出到html页面</title>
+</head>
+<body>
+	<h1>This is a neading</h1>
+	<p>this is paragraph one</p>
+	<p>this is paragraph two</p>
+	<script>document.write("<p>this is paragraph three</p>")</script>
+	<script>document.write("<p>this is paragraph four</p>")</script>
+	<!-- 如果文档加载完成后，再使用函数调用js，会覆盖整个document -->
+</body>
+</html>

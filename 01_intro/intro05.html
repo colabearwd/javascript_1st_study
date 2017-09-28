@@ -1,0 +1,17 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>js改变css样式表里面的颜色元素</title>
+</head>
+<body>
+	<h1>这里是改变下面文字的颜色</h1>
+	<p id="p_demo">这一行字会改变自己的颜色</p>
+	<button type="button" onclick="changeColor()">变色</button>
+	<script>
+	function changeColor(){
+		document.getElementById("p_demo").style.color="red";
+	}
+	</script>
+</body>
+</html>

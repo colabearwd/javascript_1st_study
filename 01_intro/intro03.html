@@ -1,0 +1,18 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>js改变html元素的内容，覆盖</title>
+	
+</head>
+<body>
+	<h1>js改变下面的p标签内的文字</h1>
+	<p id="p_demo">这段文字在点击按钮后会被改变</p>
+	<button type="button" onclick="change_para()">改变</button>
+	<script type="text/javascript">
+	function change_para(){
+		object=document.getElementById("p_demo");
+		object.innerHTML="这里已经被改变了";
+	}</script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>js检测输入的内容是不是数字类型</title>
+</head>
+<body>
+<h1>js判断输入的内容是不是数字类型的</h1>
+<p>请输入数字，如果不是数字，浏览器会弹出提示框</p>
+<input type="text" id="numInput">
+<button type="button" onclick="myFunction01()">提交</button>
+<script type="text/javascript">
+    function myFunction01() {
+        var x=document.getElementById("numInput").value;
+        if(x==""||isNaN(x))
+        {
+            alert("please input the number!!");
+        }
+
+    }
+</script>
+</body>
+</html>
